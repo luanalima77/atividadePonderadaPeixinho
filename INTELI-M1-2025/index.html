@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- O que essa parte faz? Resposta: essa parte utiliza o sistema de codificação UTF-8 para representar caracteres de quaisquer idiomas-->
+        <meta charset="UTF-8">
+
+        <!-- O que essa parte faz? Resposta: essa parte evidencia como a página deve ser mostrada em dispositivos móveis e desktops.-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- O que essa parte faz? Resposta: essa parte coloca "Peixinho" como título da aba da página no navegador-->
+        <title>Luana de Jesus Lima</title>
+        
+        
+        <style>
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+            }
+        </style>
+
+
+        <!-- O que essa parte faz? Resposta: essa parte importa o arquivo phaser.js por meio da tag <script>, a qual se refere à linguagem JavaScript.-->
+        <script src="phaser.js"></script>
+    </head>
+
+
+    <body>
+        
+        <!-- O que essa parte faz? Resposta: essa parte importa o arquivo peixe.js por meio da tag <script>, que é referente a JavaScript.-->
+        <script src="peixe.js"></script>
+
+        <script>
+            var pergunta =  "PERGUNTA: Você já tinha programado antes? Se sim, conte um pouco da sua experiência. Se essa foi a sua primeira experiência com código, conte o que você achou! Conseguiu entender todas as partes do tutorial? Tudo funcionou?";
+
+            var resposta = "RESPOSTA: eu já havia programado antes sim! Eu fiz Desenvolvimento de Sistemas na Etec de Taboão da Serra e eu programei bastante durante meus três anos estudando lá, usando JavaScript, React Native, C, C# e um pouco de PHP. Criei sites, apps e fiz até um projeto com IoT em 2024, utilizando ESP32 e sua conexão WI-FI embutida unida a um aplicativo mobile. Portanto, foi uma experiência muito enriquecedora e cheia de aprendizados! Especificamente sobre esse tutorial, gostei de conhecer o Phaser (entendendo algumas coisas que eu ainda não havia estudado) e de fazer o pexinho se movimentar.";
+
+            console.log(pergunta);
+
+            console.log(resposta);
+        </script>
+    </body>
+
+</html>
