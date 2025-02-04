@@ -20,7 +20,6 @@ function preload(){
     this.load.image('peixe', 'assets/peixes/peixinho_laranja.png');
     this.load.image('amigoDoPeixinho', 'assets/peixes/peixinho_roxo.png');
     this.load.image('outroAmigoDoPeixinho', 'assets/peixes/peixinho_azul.png');
- 
 }
 
 function create(){
