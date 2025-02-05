@@ -1,4 +1,5 @@
-<h1>Atividade ponderada de computação: peixinho</h1>
+<h1>Atividade ponderada de computação do Inteli: peixinho</h1>
+<p>Nome: Luana de Jesus Lima</p>
 <p>Tecnologias usadas: HTML, CSS, JavaScript e Phaser.</p>
 
 <h2>Imagem da tela do site</h2>
